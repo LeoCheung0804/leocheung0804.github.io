@@ -7,9 +7,13 @@
 }
 /* text css above hero image*/
 .hero_title {
+    background-color: grey;
+    color: white;
     font-size: 4.5rem;
 }
 .hero_desc {
+    background-color: grey;
+    color: white;
     font-size: 2rem;
 }
 .hero-text {
@@ -19,4 +23,21 @@
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
+}
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    background-color: grey;
+}
+
+.nav-link {
+    color: black;
+    font-size: 2rem;
+}
+
+.nav-link:hover {
+    color: grey;
 }
