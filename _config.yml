@@ -11,10 +11,12 @@ locale                   : "en-US"
 title                    : "Leo's Personal Website"
 title_separator          : "-"
 name                     : &name "Cheung Man Loc Leo"
-description              : &description "Mechanical engineer specializing in robotics and automation, with significant experience in designing and developing advanced robotic systems"
+description              : &description "A website of Mechanical engineer with robotics and automation, advanced robotic systems"
 url                      : "https://leocheung0804.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "leocheung0804/leocheung0804.github.io"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
