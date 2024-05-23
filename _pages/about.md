@@ -7,15 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-👋 Hi there!
+- 👋 Hi there!
 
-👦🏻 I’m Leo Cheung, a passionate Mechanical Engineer with a flair for robotics and automation
+- 👦🏻 I’m Leo Cheung, a passionate Mechanical Engineer with a flair for robotics and automation
 
-🤖 I thrive on creating cutting-edge robotic systems that push the boundaries of technology
+- 🤖 I thrive on creating cutting-edge robotic systems that push the boundaries of technology
 
-🎓 With a BSc in Engineering Physics and an MSc in Mechanical and Automation Engineering
+- 🎓 With a BSc in Engineering Physics and an MSc in Mechanical and Automation Engineering
 
-🚀 I'm all about innovation and making robots smarter, faster, and cooler . Let's revolutionize the world of robotics together!
+- 🚀 I'm all about innovation and making robots smarter, faster, and cooler . Let's revolutionize the world of robotics together!
 
 # Skills and Experience
 
@@ -31,9 +31,9 @@ redirect_from:
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/leocheung0804" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="leocheung0804" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/leocheung0804" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="leocheung0804" height="40" width="40" /></a>
+<a href="https://github.com/LeoCheung0804" target="blank"><img align="center" src="../images/Logo/github-mark.svg" alt="leocheung0804" height="40" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.ros.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" alt="ros" width="40" height="40"/> </a><a href="https://www.arduino.cc/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a><a href="https://web.autocad.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/AutoCad_new_logo.svg" alt="autocad" width="100" height="40"/> </a> <a href="https://www.solidworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/en/d/d2/SolidWorks_Logo.svg" alt="solidworks" width="120" height="40"/> </a></p>
-
