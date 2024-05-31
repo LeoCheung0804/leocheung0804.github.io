@@ -12,7 +12,7 @@ title                    : "Leo's Personal Website"
 title_separator          : "-"
 name                     : &name "Cheung Man Loc Leo"
 description              : &description "Website of a Hong Kong Mechanical engineer with robotics and automation"
-url                      : "https://leocheung0804.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://leocml.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "leocheung0804/leocheung0804.github.io"
 
@@ -27,7 +27,7 @@ author:
   bio              : "Mechanical engineer specializing in robotics and automation, with significant experience in designing and developing advanced robotic systems"
   location         : "Hong Kong"
   employer         : "C3 Construction Robotics Limited"
-  uri              : "https://leocheung0804.github.io" # URL
+  uri              : "https://leocml.com" # URL
   email            : "leocheung0804@gmail.com" 
 
   # Academic websites
