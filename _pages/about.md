@@ -16,7 +16,7 @@ redirect_from:
 - 🎓 With a BSc in Engineering Physics and an MSc in Mechanical and Automation Engineering
 
 - 🚀 I'm all about innovation and making robots smarter, faster, and cooler. Let's revolutionize the world of robotics together!
-
+  
 # Skills and Experience
 
 - 🔭 I’m currently working on [C3 Construction Robotics Limited](https://www.c3robotics.com.hk)
@@ -27,7 +27,8 @@ redirect_from:
 
 - 📫 How to reach me **leocheung0804@gmail.com**
 
-- 📄 Know about my experiences [leocheung0804.github.io/cv](leocheung0804.github.io/cv)
+- 📄 Know about my experiences [https://leocml.com/cv](https://leocml.com/cv)
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
