@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Leo's Personal Website"
+title                    : "Cheung Man Loc Leo Personal Website"
 title_separator          : "-"
 name                     : &name "Cheung Man Loc Leo"
 description              : &description "Website of a Hong Kong Mechanical engineer with robotics and automation"
