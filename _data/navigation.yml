@@ -7,7 +7,10 @@ main:
     url: /year-archive/
     
   - title: "CV"
-    url: /files/CheungManLoc_2024_CV.pdf
+    url: /cv/
     
   - title: "Contact"
     url: /contact/
+
+  - title: "Publications"
+    url: /publications/
