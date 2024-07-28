@@ -10,14 +10,14 @@ redirect_from:
 {% include base_path %}
 
 # Education
-##MSc in Mechanical And Automation Engineering, The Chinese University Of Hong Kong, 2023
-###MSc Project :
+## MSc in Mechanical And Automation Engineering, The Chinese University Of Hong Kong, 2023
+### MSc Project :
 - Design and Analysis of Wireless Motorized Foot Controller for enhanced control of SuperLimb
 - Build a Motorized Foot Controller with Haptic feedback and Trajectory assistance
 - Built API for Foot Controller to control SuperLimb and Smart home devices interchangeably
 - Quantitative experiments on foot motion and overall ergonomics; improved motion and control
 
-###Relevant modules :
+### Relevant modules :
 - Robotics, Control & Industrial Automation, Computer Aided Design and Manufacturing
 - Design for Additive Manufacturing, Precision Machine Design and Vibration Control
 
@@ -79,7 +79,6 @@ redirect_from:
 * Languages: Cantonese (Native), Mandarin (Fluent), English (Fluent, IELTS 7.0)
 
 # Publications
-======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
