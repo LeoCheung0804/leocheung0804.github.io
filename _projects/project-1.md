@@ -6,6 +6,26 @@ collection: project
 
 # MSc Project: Design and Analysis of Wireless Motorized Foot Controller for Enhanced Control of SuperLimb
 
+
+<table>
+  <tr>
+    <td style="width: 30%;">
+      <img src='/images/Superlimb_pic_1.mp4' alt='Project Image' style="width: 100%;">
+    </td>
+    <td style="width: 70%;">
+      <h2>Project Overview</h2>
+      <p>The project aimed to develop wearable robots and controllers that enhance human physical abilities and compensate for lost abilities. Specifically, a <strong>Motorized Foot Controller</strong> was built with haptic feedback and trajectory assistance to wirelessly control a <strong>SuperLimb</strong>. The controller also enables seamless interchange between multiple smart home devices using multiple ESP slaves.</p>
+      <h3>Key Features:</h3>
+      <ul>
+        <li><strong>Motorized Foot Controller</strong>: Equipped with haptic feedback and trajectory assistance.</li>
+        <li><strong>Wireless Control</strong>: Facilitates control of SuperLimb and multiple smart home devices.</li>
+        <li><strong>API Development</strong>: Built API for the Foot Controller to control SuperLimb and smart home devices interchangeably.</li>
+        <li><strong>Ergonomics and Motion Analysis</strong>: Conducted quantitative experiments on foot motion and overall ergonomics, leading to improved motion and control.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 ## Project Overview
 The project aimed to develop wearable robots and controllers that enhance human physical abilities and compensate for lost abilities. Specifically, a **Motorized Foot Controller** was built with haptic feedback and trajectory assistance to wirelessly control a **SuperLimb**. The controller also enables seamless interchange between multiple smart home devices using multiple ESP slaves.
 
