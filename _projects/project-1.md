@@ -10,7 +10,7 @@ collection: project
 <table>
   <tr>
     <td style="width: 30%;">
-      <video src='/images/Superlimb_pic_1.mp4' alt='Project Image' style="width: 100%;">
+      <video src='/images/Superlimb_pic_1.mp4' alt='Project Video' style="width: 100%;" controls></video>
     </td>
     <td style="width: 70%;">
       <h2>Project Overview</h2>
