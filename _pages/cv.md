@@ -85,7 +85,7 @@ redirect_from:
 - **Robotics:** LiDAR, motors, encoders, 5G modules, kinematics and dynamics, PID controls, I2C
 - **Languages:** Cantonese (Native), Mandarin (Fluent), English (Fluent, IELTS 7.0)
 
-# Publications
+## Publications
 <ul>{% for post in site.publications reversed %}
   {% include archive-single-cv.html %}
 {% endfor %}</ul>
