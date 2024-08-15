@@ -1,6 +1,6 @@
 ---
 title: "MSc Project"
-excerpt: "Design and Analysis of Wireless Motorized Foot Controller for enhanced control of SuperLimb <br/><img src='/images/500x300.png'>"
+excerpt: "Design and Analysis of Wireless Motorized Foot Controller for enhanced control of SuperLimb <br/><img src='/images/fig8.jpg'>"
 collection: projects
 ---
 
@@ -9,7 +9,7 @@ collection: projects
 <table>
   <tr>
     <td style="width: 20%;">
-      <video src='/images/Superlimb_pic_1.mp4' alt='Project Video' style="width: 70%;" controls></video>
+      <video src='/images/Superlimb_pic_1.mp4' alt='Project Video' style="width: 100%;" controls></video>
     </td>
     <td style="width: 80%;">
       <h2>Project Overview</h2>
