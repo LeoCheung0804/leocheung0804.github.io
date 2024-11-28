@@ -1,5 +1,5 @@
 ---
-title: "MSc Project"
+title: "MSc Project - Wireless Motorized Foot Controller for SuperLimb"
 excerpt: "Design and Analysis of Wireless Motorized Foot Controller for enhanced control of SuperLimb <br/><img src='/images/fig8.jpg'>"
 collection: projects
 ---
@@ -8,10 +8,10 @@ collection: projects
 
 <table>
   <tr>
-    <td style="width: 20%;">
+    <td style="width: 40%;">
       <video src='/images/Superlimb_pic_1.mp4' alt='Project Video' style="width: 100%;" controls></video>
     </td>
-    <td style="width: 80%;">
+    <td style="width: 60%;">
       <h2>Project Overview</h2>
       <p>The project aimed to develop wearable robots and controllers that enhance human physical abilities and compensate for lost abilities. Specifically, a <strong>Motorized Foot Controller</strong> was built with haptic feedback and trajectory assistance to wirelessly control a <strong>SuperLimb</strong>. The controller also enables seamless interchange between multiple smart home devices using multiple ESP slaves.</p>
       <h3>Key Features:</h3>

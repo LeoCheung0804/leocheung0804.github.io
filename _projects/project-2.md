@@ -1,6 +1,6 @@
 ---
 title: "Robo-Tapper Facade Inspection Robot"
-excerpt: "An autonomous mobile robot for AI-based façade inspections, achieving stability and success in real-world deployments. <br/><img src='/images/robofacade.jpg'>"
+excerpt: "An autonomous mobile robot for AI-based façade inspections, achieving stability and success in real-world deployments. <br/><img src='/images/Robotapper_2.JPG'>"
 collection: projects
 ---
 
@@ -8,10 +8,10 @@ collection: projects
 
 <table>
   <tr>
-    <td style="width: 20%;">
-      <img src='/images/robofacade.jpg' alt='Robo-Tapper Image' style="width: 100%;">
+    <td style="width: 40%;">
+      <img src='/images/Robotapper_2.JPG' alt='Robo-Tapper Image' style="width: 100%;">
     </td>
-    <td style="width: 80%;">
+    <td style="width: 60%;">
       <h2>Project Overview</h2>
       <p>This project involved designing and developing a mobile autonomous robot, the <strong>Robo-Tapper</strong>, for AI-based façade inspections. This system was field-tested and successfully deployed commercially, generating over 1.5 million HKD in its first year. The project focused on structural optimization, stability, and seamless integration of advanced sensors for enhanced navigation and crack detection.</p>
       <h3>Key Features:</h3>
