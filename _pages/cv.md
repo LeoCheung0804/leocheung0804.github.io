@@ -13,10 +13,6 @@ redirect_from:
 ## MSc Mechanical and Automation Engineering
 ### The Chinese University of Hong Kong, 9/2022 - 6/2023
 #### MSc Project
-- Designed and analyzed a wireless motorized foot controller for enhanced control of SuperLimb.
-- Built a motorized foot controller with haptic feedback and trajectory assistance.
-- Developed an API for the foot controller to control SuperLimb and smart home devices interchangeably.
-- Conducted quantitative experiments on foot motion and overall ergonomics, improving motion and control.
 
 ## BSc (Hons) Engineering Physics
 ### The Hong Kong Polytechnic University, 9/2016 - 7/2020
