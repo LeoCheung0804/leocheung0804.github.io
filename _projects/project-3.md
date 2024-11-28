@@ -1,6 +1,6 @@
 ---
 title: "kNOw Touch Sensor Bar"
-excerpt: "A touch-less lift button system installed across Hong Kong, ensuring hygiene and safety during the pandemic. <br/><img src='/images/Knowtouch_1.png' style="width: 50%;">"
+excerpt: "A touch-less lift button system installed across Hong Kong, ensuring hygiene and safety during the pandemic. <br/><img src='/images/Knowtouch_1.png'>"
 collection: projects
 ---
 
