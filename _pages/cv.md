@@ -18,7 +18,6 @@ redirect_from:
 ### The Hong Kong Polytechnic University, 9/2016 - 7/2020
 
 #### Final Year Project
-- Investigated the effects of different LEDs as artificial lighting for basil's growth.
 
 # Work Experience
 
