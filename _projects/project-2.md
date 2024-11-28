@@ -1,6 +1,6 @@
 ---
 title: "Robo-Tapper Facade Inspection Robot"
-excerpt: "An autonomous mobile robot for AI-based façade inspections, achieving stability and success in real-world deployments. <br/><img src='/images/Robotapper_2.JPG'>"
+excerpt: "An autonomous mobile robot for AI-based façade inspections, achieving stability and success in real-world deployments. <br/><img src='/images/Robotapper_2.JPG' style='width:25%;'>"
 collection: projects
 ---
 
