@@ -1,6 +1,6 @@
 ---
 title: "kNOw Touch Sensor Bar"
-excerpt: "A touch-less lift button system installed across Hong Kong, ensuring hygiene and safety during the pandemic. <br/><img src='/images/touchsensor.jpg'>"
+excerpt: "A touch-less lift button system installed across Hong Kong, ensuring hygiene and safety during the pandemic. <br/><img src='/images/Knowtouch_1.png' style="width: 50%;">"
 collection: projects
 ---
 
@@ -8,10 +8,10 @@ collection: projects
 
 <table>
   <tr>
-    <td style="width: 20%;">
-      <img src='/images/touchsensor.jpg' alt='Touch Sensor Image' style="width: 100%;">
+    <td style="width: 40%;">
+      <img src='/images/Knowtouch_1.png' alt='Touch Sensor Image' style="width: 100%;">
     </td>
-    <td style="width: 80%;">
+    <td style="width: 60%;">
       <h2>Project Overview</h2>
       <p>The kNOw Touch Sensor Bar is a touch-less add-on solution enabling elevator operation without physical contact. Designed and developed during the COVID-19 pandemic, the project contributed significantly to public health safety, generating over 4 million HKD in revenue with installations in prominent locations such as Hong Kong International Airport.</p>
       <h3>Key Features:</h3>
