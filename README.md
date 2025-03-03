@@ -1,4 +1,4 @@
-[![view - Site](https://img.shields.io/badge/View_site-My_GitHub_Projects-2ea44f?style=for-the-badge&logo=netlify)](https://leocml.com)
+(https://leocml.com)
 
 This website is based on [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)
 
