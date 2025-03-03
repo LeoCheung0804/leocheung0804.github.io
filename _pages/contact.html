@@ -38,50 +38,5 @@ author_profile: true
       </div>
     </div>
 
-    <!-- Weather Section -->
-    <div class="row mt-5">
-      <div class="col-lg-12 text-center">
-        <h2>Hong Kong Current Weather</h2>
-        <div class="weather-box p-4 border rounded bg-light">
-          <h3 id="temperature">Loading...</h3>
-          <p id="humidity"></p>
-          <p id="rainfall"></p>
-        </div>
-      </div>
-    </div>
-
   </div>
 </section>
-
-<script>
-  async function fetchWeather() {
-    const url = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en";
-
-    try {
-      console.log("Fetching weather data...");
-      const response = await fetch(url);
-      if (!response.ok) {
-        throw new Error(`HTTP error! status: ${response.status}`);
-      }
-      const data = await response.json();
-      console.log("Weather data received:", data);
-
-      // Extract temperature from the first location (Hong Kong Observatory)
-      const temp = data.temperature.data.find(loc => loc.place === "Hong Kong Observatory").value;
-      const humidity = data.humidity.data[0].value;
-      const rainfall = data.rainfall.data[0]?.max || "No rain";
-
-      document.getElementById("temperature").innerText = `🌡 Temperature: ${temp}°C`;
-      document.getElementById("humidity").innerText = `💧 Humidity: ${humidity}%`;
-      document.getElementById("rainfall").innerText = `🌧 Rainfall: ${rainfall} mm`;
-    } catch (error) {
-      console.error("Failed to fetch weather data:", error);
-      document.getElementById("temperature").innerText = "Failed to load data";
-      document.getElementById("humidity").innerText = "";
-      document.getElementById("rainfall").innerText = "";
-    }
-  }
-
-  fetchWeather();
-  setInterval(fetchWeather, 60000); // Refresh every 60 seconds
-</script>
