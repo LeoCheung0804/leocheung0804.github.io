@@ -58,11 +58,13 @@ author_profile: true
     const url = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en";
 
     try {
+      console.log("Fetching weather data...");
       const response = await fetch(url);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
+      console.log("Weather data received:", data);
 
       // Extract temperature from the first location (Hong Kong Observatory)
       const temp = data.temperature.data.find(loc => loc.place === "Hong Kong Observatory").value;
