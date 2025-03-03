@@ -7,82 +7,74 @@ author_profile: true
 
 {% include base_path %}
 
-
 <!-- contact section-->
 <section id="contact">
   <div class="container mt-3 contactContent">
     <div class="row mt-4">
       <div class="col-lg-6">
-        <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+        <!-- Google Map -->
         <div
-          style="
-            max-width: 100%;
-            list-style: none;
-            transition: none;
-            overflow: hidden;
-            width: 500px;
-            height: 500px;
-          "
+          style="max-width: 100%; overflow: hidden; width: 500px; height: 500px;"
         >
-          <div
-            id="embed-map-canvas"
-            style="height: 100%; width: 100%; max-width: 100%"
-          >
-            <iframe
-              style="height: 100%; width: 100%; border: 0"
-              frameborder="0"
-              src="https://www.google.com/maps/embed/v1/place?q=HKSTP&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-            ></iframe>
-          </div>
-          <a
-            class="googlecoder"
-            href="https://www.bootstrapskins.com/themes"
-            id="auth-map-data"
-            >premium bootstrap themes</a
-          ><style>
-            #embed-map-canvas img.text-marker {
-              max-width: none !important;
-              background: none !important;
-            }
-            img {
-              max-width: none;
-            }
-          </style>
+          <iframe
+            style="height: 100%; width: 100%; border: 0"
+            frameborder="0"
+            src="https://www.google.com/maps/embed/v1/place?q=HKSTP&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
+          ></iframe>
         </div>
       </div>
 
+      <!-- Contact Form -->
       <div class="col-lg-6">
-        <div
-        style="
-          max-width: 100%;
-          list-style: none;
-          transition: none;
-          overflow: hidden;
-          width: 500px;
-          height: 500px;
-        "
-      >
-        <!-- form fields -->
         <form>
-          <input
-            type="text"
-            class="form-control form-control-lg"
-            placeholder="Name"
-          />
+          <input type="text" class="form-control form-control-lg" placeholder="Name" />
           <input type="email" class="form-control mt-3" placeholder="Email" />
           <input type="text" class="form-control mt-3" placeholder="Subject" />
           <div class="mb-3 mt-3">
-            <textarea
-              class="form-control"
-              rows="5"
-              id="comment"
-              name="text"
-              placeholder="Project Details"
-            ></textarea>
+            <textarea class="form-control" rows="5" placeholder="Project Details"></textarea>
           </div>
         </form>
         <button type="button" class="btn btn-success mt-3">Contact Me</button>
       </div>
     </div>
+
+    <!-- Weather Section -->
+    <div class="row mt-5">
+      <div class="col-lg-12 text-center">
+        <h2>Hong Kong Current Weather</h2>
+        <div class="weather-box p-4 border rounded bg-light">
+          <h3 id="temperature">Loading...</h3>
+          <p id="humidity"></p>
+          <p id="rainfall"></p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </section>
+
+<script>
+  async function fetchWeather() {
+    const url = "https://data.weather.gov.hk/weatherAPI/opendata/weather.php?dataType=rhrread&lang=en";
+
+    try {
+      const response = await fetch(url);
+      const data = await response.json();
+
+      // Extract temperature from the first location (Hong Kong Observatory)
+      const temp = data.temperature.data.find(loc => loc.place === "Hong Kong Observatory").value;
+      const humidity = data.humidity.data[0].value;
+      const rainfall = data.rainfall.data[0]?.max || "No rain";
+
+      document.getElementById("temperature").innerText = `🌡 Temperature: ${temp}°C`;
+      document.getElementById("humidity").innerText = `💧 Humidity: ${humidity}%`;
+      document.getElementById("rainfall").innerText = `🌧 Rainfall: ${rainfall} mm`;
+    } catch (error) {
+      console.error("Failed to fetch weather data:", error);
+      document.getElementById("temperature").innerText = "Failed to load data";
+    }
+  }
+
+  fetchWeather();
+  setInterval(fetchWeather, 60000); // Refresh every 60 seconds
+</script>
