@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/View-Personal_website-blue)(https://leocml.com)
+
+[![view - Site](https://img.shields.io/badge/View-Personal_website-blue)](https://leocml.com)
 
 This website is based on [academicpages.github.io](https://github.com/academicpages/academicpages.github.io)
 
